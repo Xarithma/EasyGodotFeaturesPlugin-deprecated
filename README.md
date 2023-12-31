@@ -61,7 +61,7 @@ If everything is correct, the dock on the left side of the screen should appear.
 
 ## Credits
 
-- @Xarithma: Project manager
+- [@Xarithma](https://github.com/Xarithma): Project manager
 
 ## License
 
