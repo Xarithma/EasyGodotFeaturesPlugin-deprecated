@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bmkfttc01m3c7"]
+
+[node name="EasyGodotFeaturesMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="FeaturesButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 117.0
+offset_top = 383.0
+offset_right = 305.0
+offset_bottom = 414.0
+text = "Import Features..."
+
+[node name="TemplatesButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 117.0
+offset_top = 420.0
+offset_right = 305.0
+offset_bottom = 451.0
+text = "Import Templates..."
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 532.0
+offset_top = 187.0
+offset_right = 1040.0
+offset_bottom = 232.0
+theme_override_font_sizes/font_size = 32
+text = "Welcome to Easy Godot Features"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Description" type="Label" parent="."]
+layout_mode = 0
+offset_left = 532.0
+offset_top = 250.0
+offset_right = 1040.0
+offset_bottom = 401.0
+theme_override_font_sizes/font_size = 16
+text = "All things that you make with this Godot plugin is free to use commercially thanks to the GNU GPL v3 license. While not necessary, it would be appriciated if you credited the plugin in some way. Good luck on your game development journey."
+autowrap_mode = 3
+clip_text = true
