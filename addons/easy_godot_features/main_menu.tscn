@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://bmkfttc01m3c7"]
+[gd_scene load_steps=3 format=3 uid="uid://bmkfttc01m3c7"]
+
+[ext_resource type="Texture2D" uid="uid://3woiwiitmjbl" path="res://addons/easy_godot_features/assets/displays/features.png" id="1_kfocx"]
+[ext_resource type="Texture2D" uid="uid://ceapdwgm6vhg8" path="res://addons/easy_godot_features/assets/displays/templates.png" id="2_mps0w"]
 
 [node name="EasyGodotFeaturesMenu" type="Control"]
 layout_mode = 3
@@ -9,40 +12,70 @@ grow_horizontal = 2
 grow_vertical = 2
 metadata/_edit_lock_ = true
 
-[node name="FeaturesButton" type="Button" parent="."]
+[node name="TabContainer" type="TabContainer" parent="."]
 layout_mode = 1
-offset_left = 117.0
-offset_top = 383.0
-offset_right = 305.0
-offset_bottom = 414.0
-text = "Import Features..."
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 48.0
+grow_horizontal = 2
+grow_vertical = 2
 
-[node name="TemplatesButton" type="Button" parent="."]
-layout_mode = 1
-offset_left = 117.0
-offset_top = 420.0
-offset_right = 305.0
-offset_bottom = 451.0
-text = "Import Templates..."
+[node name="Features" type="TabBar" parent="TabContainer"]
+layout_mode = 2
 
-[node name="Title" type="Label" parent="."]
+[node name="RowsOfFeatures" type="VBoxContainer" parent="TabContainer/Features"]
 layout_mode = 0
-offset_left = 532.0
-offset_top = 187.0
-offset_right = 1040.0
-offset_bottom = 232.0
-theme_override_font_sizes/font_size = 32
-text = "Welcome to Easy Godot Features"
-horizontal_alignment = 1
-vertical_alignment = 1
+offset_left = 131.0
+offset_top = 101.0
+offset_right = 414.0
+offset_bottom = 486.0
 
-[node name="Description" type="Label" parent="."]
+[node name="SteamIntegration" type="Button" parent="TabContainer/Features/RowsOfFeatures"]
+layout_mode = 2
+text = "Import Stream Integration..."
+
+[node name="NetworkingFramework" type="Button" parent="TabContainer/Features/RowsOfFeatures"]
+layout_mode = 2
+text = "Import Networking Framework..."
+
+[node name="FeatureDisplay" type="TextureRect" parent="TabContainer/Features"]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 80.0
+offset_right = 1000.0
+offset_bottom = 480.0
+texture = ExtResource("1_kfocx")
+expand_mode = 2
+
+[node name="Project Templates" type="TabBar" parent="TabContainer"]
+visible = false
+layout_mode = 2
+
+[node name="RowsOfTemplates" type="VBoxContainer" parent="TabContainer/Project Templates"]
 layout_mode = 0
-offset_left = 532.0
-offset_top = 250.0
-offset_right = 1040.0
-offset_bottom = 401.0
-theme_override_font_sizes/font_size = 16
-text = "All things that you make with this Godot plugin is free to use commercially thanks to the GNU GPL v3 license. While not necessary, it would be appriciated if you credited the plugin in some way. Good luck on your game development journey."
-autowrap_mode = 3
-clip_text = true
+offset_left = 131.0
+offset_top = 132.0
+offset_right = 414.0
+offset_bottom = 517.0
+
+[node name="3DThirdPersonTemplateButton" type="Button" parent="TabContainer/Project Templates/RowsOfTemplates"]
+layout_mode = 2
+text = "Setup 3D third-person template..."
+
+[node name="3DFirstPersonTemplateButton" type="Button" parent="TabContainer/Project Templates/RowsOfTemplates"]
+layout_mode = 2
+text = "Setup 3D first-person template..."
+
+[node name="3DTopDownTemplateButton" type="Button" parent="TabContainer/Project Templates/RowsOfTemplates"]
+layout_mode = 2
+text = "Setup 3D top-down template..."
+
+[node name="TemplateDisplay" type="TextureRect" parent="TabContainer/Project Templates"]
+layout_mode = 0
+offset_left = 600.0
+offset_top = 80.0
+offset_right = 1000.0
+offset_bottom = 480.0
+texture = ExtResource("2_mps0w")
+expand_mode = 2
