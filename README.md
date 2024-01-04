@@ -1,10 +1,10 @@
-# Welcome! This is the Easy Godot Features Addon
+# Welcome! This is the Easy Godot Features Plugin
 
 **A place where we make game development simpler.**
 
-## The addon
+## The plugin
 
-Here's a project summary; you can read it if you'd like to contribute.
+Here's a project summary; please read it if you want to contribute.
 
 ### What does this project do?
 
@@ -65,5 +65,5 @@ If everything is correct, the dock on the left side of the screen should appear.
 
 ## License
 
-The project is under the GNU GPL v3 license. You can use your project commercially.
-However, all source code changes to the addon need to be open-source.
+The project is under The Unlicense license. You are free to do whatever you want with the code
+as it is in the public domain.
