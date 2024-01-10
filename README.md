@@ -22,8 +22,6 @@ If everything is correct, the dock on the left side of the screen should appear.
 
 ## The plugin
 
-Here's a project summary; please read it if you'd like to contribute.
-
 ### What does this project do?
 
 There are three things this project aims to help game developers with:
@@ -62,6 +60,10 @@ We are in the proof of concept phase, and these are the features I want the tool
 - Third-person (3D) project template (networked/local)
 - First-person (3D) project template (networked/local)
 - Top-down view (3D) project template (networked/local)
+
+## Contribution
+
+If you want to contribute, please read the [CONTRIBUTIONS](https://github.com/Xarithma/EasyGodotFeaturesPlugin/blob/main/CONTRIBUTING.md) document first!
 
 ## Credits
 
