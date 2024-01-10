@@ -2,9 +2,27 @@
 
 **A place where we make game development simpler.**
 
+## Quickstart
+
+Let's get the show on the road.
+
+### Install
+
+**Warning:** We still need Godot asset store support.
+
+1. Clone the repository
+2. Place the addon folder into the root of your project's folder.
+3. Go to Project Settings -> Plugins and enable the plugin
+
+If everything is correct, the dock on the left side of the screen should appear. (WIP)
+
+## How to use the project?
+
+**This section is a work in progress, as the best practices still need to be developed.**
+
 ## The plugin
 
-Here's a project summary; please read it if you want to contribute.
+Here's a project summary; please read it if you'd like to contribute.
 
 ### What does this project do?
 
@@ -44,20 +62,6 @@ We are in the proof of concept phase, and these are the features I want the tool
 - Third-person (3D) project template (networked/local)
 - First-person (3D) project template (networked/local)
 - Top-down view (3D) project template (networked/local)
-
-## How to install?
-
-**Warning:** We still need Godot asset store support.
-
-1. Clone the repository
-2. Place the addon folder into the root of your project's folder.
-3. Go to Project Settings -> Plugins and enable the plugin
-
-If everything is correct, the dock on the left side of the screen should appear. (WIP)
-
-## How to use the project?
-
-**This section is a work in progress, as the best practices still need to be developed.**
 
 ## Credits
 
